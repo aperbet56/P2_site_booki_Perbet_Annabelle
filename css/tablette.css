@@ -1,0 +1,33 @@
+.ul-filters li {
+    margin: 5px;
+}
+
+.accomodations {
+    flex-direction: column;
+}
+
+#accomodation,
+.most_popular {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.most_popular .card {
+    width: 30%;
+    height: 125px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+#activities {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+footer {
+    border: 3px solid var(--blue);
+    background-color: #ffffff;
+    width: 100%;
+}
